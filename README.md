@@ -21,8 +21,11 @@ You can access the notebook [here](https://colab.research.google.com/drive/1xBd2
 To use it you will need to follow these steps: 
 
 - First to download the scRNA-Seq raw counts for the cardiac immune cells directly from the [Heart Cell Atlas](https://www.heartcellatlas.org/#Visualisations) portal.
-- In your `GDrive` home directory create the folders needed for the following path: `/INBOX/lisbon_2021/raw_data/`. You can also create your own path.  
+
+- In your `GDrive` home directory create the folders needed for the following path: `/INBOX/lisbon_2021/raw_data/`. You can also create your own path.
+  
 - Upload your `anndata` object inside `/INBOX/lisbon_2021/raw_data/`.  
+
 - Update the path to the object in the CoLab notebook. 
 
 You are good to go!
