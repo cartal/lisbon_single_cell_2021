@@ -8,7 +8,7 @@ To be able to run this in Colab, you will need to do the following:
 
 - **Set up GDrive**: Each Google Account comes with 15 GiB of storage free to use. You can save your data there. 
 
-- **Get Data**: You can download the data from the www.heartcellatlas.org website. For the batch correction excercise you will need the Heart Immune Cells, and for the label transfer you will need the heart fibroblast. 
+- **Get Data**: You can download the data from the Heart Cell Atlas [website](www.heartcellatlas.org). For the batch correction excercise you will need the Heart Immune Cells, and for the label transfer you will need the heart fibroblast. 
 
 For the transfer label example using `scNym` we can either train the model on the whole heart cell atlas dataset, but this may take a while even with GPUs! To speed up things, you can save the heart model (`models/heart_scnym`) in your GDrive so it can be used to annotate the dummy dataset. 
 
