@@ -26,11 +26,25 @@ To use it you will need to follow these steps:
   
 - Upload your `anndata` object inside `/INBOX/lisbon_2021/raw_data/`.  
 
-- Update the path to the object in the CoLab notebook. 
+- Update the path to the object in the CoLab notebook. It is better if you make a copy of the notebook into your own `GDrive`!!!
 
 You are good to go!
 
-### Accessing files from CoLab
+### Transferring labels between single cell data (scRNA-Seq) using `scNym`
 
-To be able to access datasets from Colab, we need to store them 
+Here we will use [scNym](https://genome.cshlp.org/content/early/2021/02/24/gr.268581.120.abstract) which uses semi-supervised adversarial neural networks to tarnsfer labels between a reference and a query single cell data. It is intended to be used with scRNA-Seq, but
+you can be adventurous and tried with other dfata modalities. 
+
+You can access the notebook [here](https://colab.research.google.com/drive/1BbOa-u8Jt9IHjGUTz2NlFKOj8UXUbEEq?usp=sharing) in Colab. 
+
+For the purpose of this course, the trainig step has already been done for you. You can access the model files in this repo under the `models` folder. For demonstration purposes, we will be using the cardiac fibroblast datasets from the heart cell atlas. But you are 
+strongly encouraged to try with other datasets. Please follow these steps:
+
+- First to download the scRNA-Seq raw counts for the cardiac fibroblasts directly from the [Heart Cell Atlas](https://www.heartcellatlas.org/#Visualisations) portal.
+
+- Save the object inside the `/INBOX/lisbon_2021/raw_data/` path.
+
+- Update the path to the object in the CoLab notebook. It is better if you make a copy of the notebook into your own `GDrive`!!!
+
+You can later upload other public data or your own dataset as well.
 
